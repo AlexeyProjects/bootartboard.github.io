@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Start your project here-->
+    <div class="container">
+      <div class="wrap">
+        <h1>Обычный input</h1>
+        <div class="form-outline">
+          <input type="text" id="form1" class="form-control" />
+          <label class="form-label" for="form1">Example label</label>
+        </div>
+      <!-- Default checkbox -->
+
+        <form>
+          <h1>Форма</h1>
+          <!-- Name input -->
+          <div class="form-outline mb-4">
+            <input type="text" id="form4Example1" class="form-control" />
+            <label class="form-label" for="form4Example1">Name</label>
+          </div>
+
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="email" id="form4Example2" class="form-control" />
+            <label class="form-label" for="form4Example2">Email address</label>
+          </div>
+
+          <!-- Message input -->
+          <div class="form-outline mb-4">
+            <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+            <label class="form-label" for="form4Example3">Message</label>
+          </div>
+
+          <!-- Checkbox -->
+          <div class="form-check d-flex justify-content-center mb-4">
+            <input
+              class="form-check-input me-2"
+              type="checkbox"
+              value=""
+              id="form4Example4"
+              checked
+            />
+            <label class="form-check-label" for="form4Example4">
+              Send me a copy of this message
+            </label>
+          </div>
+
+          <!-- Submit button -->
+          <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+        </form>
+        <h1>File input</h1>
+        <label class="form-label" for="customFile">Default file input example</label>
+        <input type="file" class="form-control" id="customFile" />
+        <!-- Default switch -->
+        <h1> Toggles</h1>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
+          <label class="form-check-label" for="flexSwitchCheckDefault"
+            >Default switch checkbox input</label
+          >
+        </div>
+
+        <!-- Checked switch -->
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked />
+          <label class="form-check-label" for="flexSwitchCheckChecked"
+            >Checked switch checkbox input</label
+          >
+        </div>
+
+        <!-- Default disabled switch -->
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" id="flexSwitchCheckDisabled" disabled />
+          <label class="form-check-label" for="flexSwitchCheckDisabled"
+            >Disabled switch checkbox input</label
+          >
+        </div>
+
+        <!-- Checked disabled switch -->
+        <div class="form-check form-switch">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="flexSwitchCheckCheckedDisabled"
+            checked
+            disabled
+          />
+          <label class="form-check-label" for="flexSwitchCheckCheckedDisabled"
+            >Disabled checked switch checkbox input</label
+          >
+        </div>
+        <!-- Default radio -->
+        <h1>  Radio кнопки</h1>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+          <label class="form-check-label" for="flexRadioDefault1"> Default radio </label>
+        </div>
+
+        <!-- Default checked radio -->
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault2"
+            checked
+          />
+          <label class="form-check-label" for="flexRadioDefault2"> Default checked radio </label>
+        </div>
+        <h1>  Checkbox кнопки</h1>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          />
+          <label class="form-check-label" for="flexCheckDefault">
+            Default checkbox
+          </label>
+        </div>
+        <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDisabled"
+              disabled
+            />
+            <label class="form-check-label" for="flexCheckDisabled"> Disabled checkbox </label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckCheckedDisabled"
+              checked
+              disabled
+            />
+            <label class="form-check-label" for="flexCheckCheckedDisabled">
+              Disabled checked checkbox
+            </label>
+          </div>
+
+        </div>
+      </div>
+      <div class="section section-tabs">
+      <div class="container">
+        <!--                nav tabs               -->
+        <div id="nav-tabs">
+          <h3>Navigation Tabs</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <h3><small>Tabs with Icons on Card</small></h3>
+              <!-- Tabs with icons on Card -->
+              <div class="card card-nav-tabs">
+                <div class="card-header card-header-primary">
+                  <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+                  <div class="nav-tabs-navigation">
+                    <div class="nav-tabs-wrapper">
+                      <ul class="nav nav-tabs" data-tabs="tabs">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#profile" data-toggle="tab">
+                            <i class="material-icons">face</i>
+                            Profile
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#messages" data-toggle="tab">
+                            <i class="material-icons">chat</i>
+                            Messages
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#settings" data-toggle="tab">
+                            <i class="material-icons">build</i>
+                            Settings
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body ">
+                  <div class="tab-content text-center">
+                    <div class="tab-pane active" id="profile">
+                      <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
+                    </div>
+                    <div class="tab-pane" id="messages">
+                      <p> I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at.</p>
+                    </div>
+                    <div class="tab-pane" id="settings">
+                      <p>I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it&#x2019;s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Tabs with icons on Card -->
+            </div>
+            <div class="col-md-6">
+              <h3><small>Tabs on Plain Card</small></h3>
+              <!-- Tabs on Plain Card -->
+              <div class="card card-nav-tabs card-plain">
+                <div class="card-header card-header-danger">
+                  <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+                  <div class="nav-tabs-navigation">
+                    <div class="nav-tabs-wrapper">
+                      <ul class="nav nav-tabs" data-tabs="tabs">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#home" data-toggle="tab">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#updates" data-toggle="tab">Updates</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#history" data-toggle="tab">History</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body ">
+                  <div class="tab-content text-center">
+                    <div class="tab-pane active" id="home">
+                      <p>I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it&#x2019;s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
+                    </div>
+                    <div class="tab-pane" id="updates">
+                      <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
+                    </div>
+                    <div class="tab-pane" id="history">
+                      <p> I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Tabs on plain Card -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script src="js/material-kit.js">  </script>
+    <script type="text/javascript"></script>
+  </body>
+</html>
